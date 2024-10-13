@@ -5,7 +5,6 @@ import os
 
 app = Flask(__name__)
 
-# Replace with your API key and Custom Search Engine ID
 API_KEY = 'AIzaSyCGyqf36D5k3QghaZLhAqb1R2OUtRFraF8'
 CX = '0d386b282da5209ea'
 SERVICE = build('customsearch', 'v1', developerKey=API_KEY)
